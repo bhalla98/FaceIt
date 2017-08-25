@@ -14,6 +14,7 @@
 		AF47C4351F4D7BCE007A6985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47C4331F4D7BCE007A6985 /* LaunchScreen.storyboard */; };
 		AF47C4401F4D7BCE007A6985 /* FaceItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C43F1F4D7BCE007A6985 /* FaceItTests.swift */; };
 		AF47C44B1F4D7BCF007A6985 /* FaceItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C44A1F4D7BCF007A6985 /* FaceItUITests.swift */; };
+		AF47C45F1F4DFCC7007A6985 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C45E1F4DFCC7007A6985 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF47C4461F4D7BCE007A6985 /* FaceItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47C44A1F4D7BCF007A6985 /* FaceItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceItUITests.swift; sourceTree = "<group>"; };
 		AF47C44C1F4D7BCF007A6985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF47C45E1F4DFCC7007A6985 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = ../FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AF47C42A1F4D7BCE007A6985 /* AppDelegate.swift */,
 				AF47C42C1F4D7BCE007A6985 /* ViewController.swift */,
+				AF47C45E1F4DFCC7007A6985 /* FaceView.swift */,
 				AF47C42E1F4D7BCE007A6985 /* Main.storyboard */,
 				AF47C4311F4D7BCE007A6985 /* Assets.xcassets */,
 				AF47C4331F4D7BCE007A6985 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				AF47C42D1F4D7BCE007A6985 /* ViewController.swift in Sources */,
 				AF47C42B1F4D7BCE007A6985 /* AppDelegate.swift in Sources */,
+				AF47C45F1F4DFCC7007A6985 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
