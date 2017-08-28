@@ -44,13 +44,11 @@ class FaceView: UIView {
         let path: UIBezierPath
         if eyesOpen {
             path = UIBezierPath(
-                arcCenter: eyeCenter,
-                radius: eyeRadius,
-                startAngle: 0,
-                endAngle: CGFloat.pi * 2,
-                clockwise: true)
-        }
-        else {
+                arcCenter: eyeCenter, radius: eyeRadius,
+                startAngle: 0, endAngle: CGFloat.pi * 2,
+                clockwise: true
+            )
+        } else {
             path = UIBezierPath()
             path.move(to: CGPoint(x: eyeCenter.x - eyeRadius, y: eyeCenter.y))
             path.addLine(to: CGPoint(x: eyeCenter.x + eyeRadius, y: eyeCenter.y))

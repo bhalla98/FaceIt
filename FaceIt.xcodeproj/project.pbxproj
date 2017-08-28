@@ -15,6 +15,7 @@
 		AF47C4401F4D7BCE007A6985 /* FaceItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C43F1F4D7BCE007A6985 /* FaceItTests.swift */; };
 		AF47C44B1F4D7BCF007A6985 /* FaceItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C44A1F4D7BCF007A6985 /* FaceItUITests.swift */; };
 		AF47C45F1F4DFCC7007A6985 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C45E1F4DFCC7007A6985 /* FaceView.swift */; };
+		AF4DCAD11F53FE8700C52F4B /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCAD01F53FE8700C52F4B /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AF47C44A1F4D7BCF007A6985 /* FaceItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceItUITests.swift; sourceTree = "<group>"; };
 		AF47C44C1F4D7BCF007A6985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF47C45E1F4DFCC7007A6985 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = ../FaceView.swift; sourceTree = "<group>"; };
+		AF4DCAD01F53FE8700C52F4B /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				AF47C42A1F4D7BCE007A6985 /* AppDelegate.swift */,
 				AF47C42C1F4D7BCE007A6985 /* ViewController.swift */,
 				AF47C45E1F4DFCC7007A6985 /* FaceView.swift */,
+				AF4DCAD01F53FE8700C52F4B /* FacialExpression.swift */,
 				AF47C42E1F4D7BCE007A6985 /* Main.storyboard */,
 				AF47C4311F4D7BCE007A6985 /* Assets.xcassets */,
 				AF47C4331F4D7BCE007A6985 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF47C42D1F4D7BCE007A6985 /* ViewController.swift in Sources */,
+				AF4DCAD11F53FE8700C52F4B /* FacialExpression.swift in Sources */,
 				AF47C42B1F4D7BCE007A6985 /* AppDelegate.swift in Sources */,
 				AF47C45F1F4DFCC7007A6985 /* FaceView.swift in Sources */,
 			);
@@ -518,6 +522,7 @@
 				AF47C4511F4D7BCF007A6985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF47C4521F4D7BCF007A6985 /* Build configuration list for PBXNativeTarget "FaceItTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				AF47C4541F4D7BCF007A6985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF47C4551F4D7BCF007A6985 /* Build configuration list for PBXNativeTarget "FaceItUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				AF47C4571F4D7BCF007A6985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
